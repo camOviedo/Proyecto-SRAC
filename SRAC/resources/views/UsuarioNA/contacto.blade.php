@@ -9,6 +9,4 @@
 
 @section('contenido')
     <h2>Contacto</h2>
-
-    @yield('registro')
 @endsection

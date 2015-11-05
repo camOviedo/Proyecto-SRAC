@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('contacto', function () {
     return view('UsuarioNA.contacto');
 });
+
+Route::get('registro', function () {
+    return view('UsuarioNA.registro');
+});

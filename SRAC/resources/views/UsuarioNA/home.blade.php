@@ -10,5 +10,4 @@
 @section('contenido')
     <h2>Información</h2>
 
-    @yield('registro')
 @endsection
