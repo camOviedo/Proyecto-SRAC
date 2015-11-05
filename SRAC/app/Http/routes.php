@@ -14,3 +14,11 @@
 Route::get('/', function () {
     return view('UsuarioNA.home');
 });
+
+Route::get('contacto', function () {
+    return view('UsuarioNA.contacto');
+});
+
+Route::get('registro', function () {
+    return view('UsuarioNA.registro');
+});
