@@ -16,7 +16,7 @@ class AddReservasTable extends Migration
             $table->increments('id');
             $table->date('fecha');
             $table->time('hora');
-            $table->enum('estado', 'pendiente', 'completada', 'vencida')->default('pendiente');
+            $table->enum('estado', ['pendiente', 'completada', 'vencida'])->default('pendiente');
             $table->integer('user_id')->unsigned();
 
             $table->foreign('user_id')->references('id')->on('users');
